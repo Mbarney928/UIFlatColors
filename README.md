@@ -1,4 +1,4 @@
 # UIFlatColors
-A Simple Swift Extension that can be dropped into any view, new class or swift source code for better color options.
+A Simple UIColor Extension for Swift that can be dropped into any swift source code for more modern and flat color options.
 
 
