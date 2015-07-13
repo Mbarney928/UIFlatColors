@@ -1,0 +1,44 @@
+
+// http://flatuicolors.com/
+
+// Flat Colors EXT.
+extension UIColor {
+    class func greenSea() -> UIColor {
+        return UIColor.colorComponents((22, 160, 133))
+    }
+    
+    class func emeraldGreen() -> UIColor {
+        return UIColor.colorComponents((46, 204, 113))
+    }
+    
+    class func sunflower() -> UIColor {
+        return UIColor.colorComponents((241, 196, 15))
+    }
+    
+    class func alizarinRed() -> UIColor {
+        return UIColor.colorComponents((231, 76, 60))
+    }
+    
+    class func turqBlue() -> UIColor {
+        return UIColor.colorComponents((26, 188, 156))
+    }
+    
+    class func carrot() -> UIColor {
+        return UIColor.colorComponents((230, 126, 34))
+    }
+    
+    class func nephritis() -> UIColor {
+        return UIColor.colorComponents((39, 174, 96))
+    }
+    
+    class func mrRiver() -> UIColor {
+        return UIColor.colorComponents((52, 152, 219))
+    }
+}
+
+
+private extension UIColor {
+    class func colorComponents(components: (CGFloat, CGFloat, CGFloat)) -> UIColor {
+        return UIColor(red: components.0/255, green: components.1/255, blue: components.2/255, alpha: 1)
+    }
+}
