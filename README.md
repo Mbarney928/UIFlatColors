@@ -7,6 +7,7 @@ A Simple UIColor Extension for Swift that can be dropped into any swift source c
 4. Add Import UIKit to the top of the file
 5. Create modern flat colors anywhere in your project!
 
-Example:  color = UIColor.greenSea()
+ Example:
+ color = UIColor.greenSea()
 
 
